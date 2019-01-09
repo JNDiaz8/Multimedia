@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sensores04"
+    android:orientation="vertical"
+    android:background="#ecea80">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SENSOR DE CAMPO MAGNETICO"
+        android:layout_gravity="center"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAMPO B_X"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/campox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campo_X"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAMPO_Y"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/campoy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campo_Y"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAMPO_Z"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/campoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campo_Z"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B MODULO"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/bmodulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAMPO MAGNETICO TOTAL"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAMPO MAXIMO"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/campoterres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campo Terrestre"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAMPO TIERRA MINIMO Y MAXIMO "
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/campotierra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Campo_tierra"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTADOR"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/contador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="contador"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+</LinearLayout>
