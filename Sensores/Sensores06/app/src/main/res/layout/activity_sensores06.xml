@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sensores06"
+    android:orientation="vertical"
+    android:background="#ecea80">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SENSOR DE PROXIMIDAD"
+        android:layout_gravity="center"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROXIMIDAD"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/proximidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="proximidad"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/orientacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ORIENTACION"
+            android:textColor="#ff0000"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NUMERO DE LECTURAS"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/contador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cero"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+</LinearLayout>

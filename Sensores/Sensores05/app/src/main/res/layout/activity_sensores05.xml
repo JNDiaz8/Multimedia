@@ -1,18 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sensores05">
+    tools:context=".Sensores05"
+    android:orientation="vertical"
+    android:background="#ecea80">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="SENSOR DE ORIENTACION"
+        android:layout_gravity="center"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AZIMUT"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/azimut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Azimut"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VERTICALIDAD"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/verticalidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="verticalidad"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INCLINACION LATERAL"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/lateralidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lateralidad"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ORIENTACION"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/orientacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ORIENTACION"
+            android:textColor="#ff0000"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NUMERO DE LECTURAS"
+            android:textColor="#b464ff"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/contador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cero"
+            android:textColor="#000"
+            android:textStyle="bold|italic"/>
+
+    </LinearLayout>
+
+</LinearLayout>
